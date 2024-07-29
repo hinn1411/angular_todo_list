@@ -32,8 +32,4 @@ export class SlidePanelComponent {
   onClosePanel() {
     this.onClose.emit(false);
   }
-  close() {
-    console.log(`clicked`);
-    this.onClose.emit(false);
-  }
 }
